@@ -14,7 +14,7 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         Dictionary::create([
-            'dictionaryType' => 'ReportePreventivo',
+            'dictionaryType' => 'Reporte Preventivo',
             'meaning' => 'Reporte de mantenimiento de tipo preventivo',
             'isEnabled' => 1,
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
@@ -22,7 +22,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Dictionary::create([
-            'dictionaryType' => 'ReporteCorrectivo',
+            'dictionaryType' => 'Reporte Correctivo',
             'meaning' => 'Reporte de mantenimiento de tipo correctivo',
             'isEnabled' => 1,
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
@@ -30,7 +30,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Dictionary::create([
-            'dictionaryType' => 'ReportePredictivo',
+            'dictionaryType' => 'Reporte Predictivo',
             'meaning' => 'Reporte de mantenimiento de tipo predictivo',
             'isEnabled' => 1,
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
@@ -46,7 +46,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Dictionary::create([
-            'dictionaryType' => 'User',
+            'dictionaryType' => 'Regular',
             'meaning' => 'Usuario sin privilegios en el sistema',
             'isEnabled' => 1,
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
