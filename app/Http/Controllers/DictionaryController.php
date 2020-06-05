@@ -28,7 +28,7 @@ class DictionaryController extends Controller
     public function index()
     {
         $Dictionarys = Dictionary::all();
-        return $this->successResponse($Dictionarys);
+        return $this->showAll($Dictionarys);
     }
     /**
      * Creates an instance of Dictionary
